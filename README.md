@@ -2,8 +2,6 @@
 
 Smart Yii2 **FileTarget** log viewer: reads from the **end** of large files, parses request context (`$_GET` / `$_POST` / `REQUEST_URI` / user), filters, multi-file aliases, download, clear, and rotated history.
 
-Inspired by useful bits from [krissss/yii2-log-reader](https://github.com/krissss/yii2-log-reader), [Lancoid/yii2-log-viewer](https://github.com/Lancoid/yii2-log-viewer), and [AdeAttwood/yii2-log-viewer](https://github.com/AdeAttwood/yii2-log-viewer) — with a smarter Yii-format parser instead of raw `tail`.
-
 ## Requirements
 
 - PHP 8.2+
@@ -92,12 +90,6 @@ Open: `/log` (pretty URL) or `?r=log/default/index`
 | History | Lists `app.log.*` rotated/dated siblings |
 | Download / Clear | Optional flags |
 | Access | `allowedUserIds`, `accessRoles`, or `accessCallback` |
-
-## Not included (on purpose)
-
-- Zip/archive UI ([krissss](https://github.com/krissss/yii2-log-reader) has this)
-- Shell `tail` / SSE live stream
-- Loading entire file into memory ([AdeAttwood](https://github.com/AdeAttwood/yii2-log-viewer) approach)
 
 ## License
 
