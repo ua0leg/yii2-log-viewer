@@ -1,0 +1,27 @@
+{
+    "name": "ua0leg/yii2-log-viewer",
+    "description": "Smart Yii2 FileTarget log viewer — tail from end, parse GET/POST/URI/user, filters, multi-file aliases, download/clear/history",
+    "keywords": ["yii2", "extension", "log", "log-viewer", "file-target"],
+    "type": "yii2-extension",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ua0leg\\Yii2LogViewer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oleg",
+            "email": "9407674@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "yiisoft/yii2": "~2.0.45"
+    },
+    "support": {
+        "issues": "https://github.com/ua0leg/yii2-log-viewer/issues",
+        "source": "https://github.com/ua0leg/yii2-log-viewer"
+    }
+}
